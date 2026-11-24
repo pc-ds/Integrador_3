@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PessoaForm from './components/cadastropessoa/PessoaFormOO.jsx';
+import PessoaForm from "./components/cadastrapessoa/PessoaFormOO.jsx";
 
 function App() {
   return <PessoaForm />;
