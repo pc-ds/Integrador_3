@@ -1,13 +1,12 @@
+import Endereco from "./Endereco.mjs"
+
 export default class Pessoa {
 
     #nome;
     #email;
+    #endereco;
+    #telefone;
  
-    constructor(nome, email){
-        this.setNome(nome);
-        this.setEmail(email);
-    }
-    
     setNome(nome) {
       if (nome) {
         this.#nome = nome;
@@ -33,6 +32,13 @@ export default class Pessoa {
     getEmail() {
       return this.#email;
     }
- 
+
+    setEndereco(cep){
+      this.#endereco.setCep(cep);
+    }
+    
+    getEndereco(){
+      return this.#endereco;
+    }
 }
  

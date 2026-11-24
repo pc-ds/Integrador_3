@@ -1,4 +1,5 @@
 import Pessoa from "./Pessoa.mjs"
+import Titulo from "./Titulo.mjs"
 
 export default class PF extends Pessoa {
 

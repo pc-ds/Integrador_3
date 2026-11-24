@@ -8,12 +8,12 @@ import PFForm from './PFForm.jsx';
 import PJForm from './PJForm.jsx';
 
 // Classes de domínio
-import PF from '../objetos/pessoas/PF.mjs';
-import PJ from '../objetos/pessoas/PJ.mjs';
-import Endereco from '../objetos/pessoas/Endereco.mjs';
-import Telefone from '../objetos/pessoas/Telefone.mjs';
-import Titulo from '../objetos/pessoas/Titulo.mjs';
-import IE from '../objetos/pessoas/IE.mjs';
+import PF from '../../objetos/pessoas/PF.mjs';
+import PJ from '../../objetos/pessoas/PJ.mjs';
+import Endereco from '../../objetos/pessoas/Endereco.mjs';
+import Telefone from '../../objetos/pessoas/Telefone.mjs';
+import Titulo from '../../objetos/pessoas/Titulo.mjs';
+import IE from '../../objetos/pessoas/IE.mjs';
 
 // DAOs
 import PFDAO from '../../objetos/dao/PFDAOLocal.mjs';

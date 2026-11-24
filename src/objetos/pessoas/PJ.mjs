@@ -5,13 +5,7 @@ export default class PJ extends Pessoa{
     #cnpj;
     #razaoSocial;
 
-    constructor(nome, email, cnpj, razaoSocial){
-        super(nome, email);
-        this.setCnpj(cnpj);
-        this.setRazaoSocial(razaoSocial);
-    }
-
-    setCnpj(cnpj){
+    setCNPJ(cnpj){
         if(cnpj != null && cnpj.length == 14){
             this.#cnpj = cnpj;
             return true;
@@ -19,7 +13,7 @@ export default class PJ extends Pessoa{
         return false;
     }
 
-    getCnpj(){
+    getCNPJ(){
         return this.#cnpj;
     }
 
